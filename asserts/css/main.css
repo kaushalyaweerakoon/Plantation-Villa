@@ -1,0 +1,111 @@
+/* Call the root */
+:root {
+  --Lora-font: 'Lora';
+  --Segoe-font: 'Segoe UI';
+
+  --font-size-14px: 18px;
+  --font-size-20px: 20px;
+  --font-size-22px: 22px;
+  --font-size-25px: 25px;
+  --font-size-30px: 30px;
+  --font-size-35px: 35px;
+  --font-size-40px: 40px;
+
+  --font-color-8d6e63: #8d6e63;
+  --font-color-3e2222: #3e2222;
+  --bggreen: #7d824a;
+  --co-white: #ffffff;
+}
+
+/* Create clases for fronts */
+.Lora-ff {
+  font-family: var(--Lora-font);
+}
+
+.Segoe-ff {
+  font-family: var(--Segoe-font);
+}
+
+/* Create clases for front sizes*/
+.fs-18-px {
+  font-size: var(--font-size-18px)
+}
+
+.fs-20-px {
+  font-size: var(--font-size-20px)
+}
+
+.fs-22-px {
+  font-size: var(--font-size-22px)
+}
+
+.fs-25-px {
+  font-size: var(--font-size-22px)
+}
+
+.fs-30-px {
+  font-size: var(--font-size-30px)
+}
+
+.fs-35-px {
+  font-size: var(--font-size-35px)
+}
+
+.fs-40-px {
+  font-size: var(--font-size-40px)
+}
+
+/* Color */
+.txt-purple {
+  color: var(--font-color-8d6e63)
+}
+
+.txt-red {
+  color: var(--font-color-3e2222)
+}
+
+/* news inner */
+
+/* Breadcrumb */
+.breadcrumb-text {
+  text-decoration: none;
+  color: var(--font-color-8d6e63);
+  font-weight: normal;
+}
+
+.breadcrumb-text.active {
+  color: var(--font-color-3e2222);
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.breadcrumb-text:hover {
+  font-size: var(--font-size-35px);
+  color: var(--font-color-8d6e63);
+  text-decoration: none;
+}
+
+.newsinner-date {
+  color: var(--font-color-8d6e63);
+  font-family: var(--Segoe-font);
+  font-size: var(--font-size-20px);
+}
+
+.newsinner-head {
+  color: var(--font-color-3e2222);
+  font-family: var(--Lora-font);
+  font-size: 45px;
+  font-weight: normal;
+}
+
+.newsinner-text{
+  font-size: var(--font-size-22px);
+  font-family: var(--Segoe-font);
+}
+
+/* @media (min-width: 320px) { 
+  br.responsive {
+    display: none; 
+  }
+} */
+
