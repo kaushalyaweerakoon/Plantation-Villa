@@ -72,7 +72,6 @@
   text-decoration: none;
   color: var(--font-color-8d6e63);
   font-weight: normal;
-  font-size: var(--font-size-20px);
 }
 
 .breadcrumb-text.active {
@@ -124,8 +123,9 @@
 }
 
 /* contact us */
-.country-text {
-  font-family: var(--Lora-font)!important;
+.country text {
+  font-family: var(--Lora-font);
+
   color: var(--font-color-3e2222);
   font-weight: normal;
   font-size: var(--font-size-30px);

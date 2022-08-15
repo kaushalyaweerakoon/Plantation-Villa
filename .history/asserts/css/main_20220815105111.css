@@ -68,15 +68,15 @@
 
 /* Breadcrumb */
 .breadcrumb-text {
-  font-family: var(--Lora-font);
+  font: var(--Lora-font)!important;
   text-decoration: none;
   color: var(--font-color-8d6e63);
   font-weight: normal;
-  font-size: var(--font-size-20px);
 }
 
 .breadcrumb-text.active {
-  color: var(--font-color-3e2222); 
+  color: var(--font-color-3e2222);
+ 
   text-decoration: none;
   font-weight: normal;
 }
@@ -121,13 +121,5 @@
   font-size: var(--font-size-22px);
   font-family: var(--Segoe-font);
   color: #000;
-}
-
-/* contact us */
-.country-text {
-  font-family: var(--Lora-font)!important;
-  color: var(--font-color-3e2222);
-  font-weight: normal;
-  font-size: var(--font-size-30px);
 }
 
