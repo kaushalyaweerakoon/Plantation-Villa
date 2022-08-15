@@ -139,9 +139,9 @@ form .form-control {
 
 /* inquire topic */
 .inquire{
-  font-size: var(--font-size-25px);
+  font-size: var(--font-size-22px);
   font-family: var(--Segoe-font);
-  color: var(--font-color-8d6e63);
+  color: var(--);
 }
 
 /*  */

@@ -134,14 +134,5 @@ form .form-control {
 
 .form-control:focus {
   box-shadow: none;
-  border-color: var(--bggreen);
+  border
 }
-
-/* inquire topic */
-.inquire{
-  font-size: var(--font-size-25px);
-  font-family: var(--Segoe-font);
-  color: var(--font-color-8d6e63);
-}
-
-/*  */

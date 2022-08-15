@@ -137,11 +137,4 @@ form .form-control {
   border-color: var(--bggreen);
 }
 
-/* inquire topic */
-.inquire{
-  font-size: var(--font-size-25px);
-  font-family: var(--Segoe-font);
-  color: var(--font-color-8d6e63);
-}
-
 /*  */
